@@ -1,7 +1,56 @@
-/* Basic CSS File */
-
-.container {
-  background-color: bisque;
-    width: auto;
-    margin:  auto;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
+.top-part {
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+}
+.top-part .title {
+    position: sticky;
+    left : 0;
+    top : 0;
+    width: 80%;
+    font-size: 150%;
+    background-color: rgba(102, 89, 89, 0.651);
+    color: #ffffff;
+}
+.top-part .logo {
+    position: sticky;
+    right: 0;
+    top: 0;
+    width: 20%;
+    height: 0%;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 37, 37);
+    padding: 10px;
+    color: white;
+}
+.navbar .menu {
+
+    font-size: 150%;
+    position:sticky;
+    left : 0;
+    background-color: rgb(192, 162, 162);
+    color: rgb(2, 2, 2);
+}
+
+  
+  a {
+    font-size: 150%;  /* Set the font size */
+    color: #007BFF;   /* Set the font color (blue in this case) */
+    text-decoration: none; /* Removes underline from the link */
+  }
+  
+  a:hover {
+    color: #0056b3;   /* Change the color when hovered (dark blue) */
+  }
+
